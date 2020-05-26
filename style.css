@@ -114,6 +114,21 @@ body {
 
 /* section 0ne */
 
+.section-one {
+  background-color: chocolate;
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(./img/Header.jpg);
+}
+
 .section-one .container-one {
   color: var(--begraund-color);
   width: 1200px;
@@ -123,18 +138,6 @@ body {
   padding-right: 15px;
   text-align: center;
   padding-top: 200px;
-}
-
-.section-one {
-  background-color: chocolate;
-  height: 600px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8));
-  background-image: url(./img/Header.jpg);
 }
 
 .heading {
