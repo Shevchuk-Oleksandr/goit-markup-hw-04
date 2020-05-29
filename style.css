@@ -103,18 +103,6 @@ body {
   margin-right: 10px;
 }
 
-.mail-icon::before {
-  width: 16px;
-  height: 11px;
-  background-image: url(./img/mail.svg);
-}
-
-.mobile-icon::before {
-  width: 10px;
-  height: 15px;
-  background-image: url(/img/mobile.svg);
-}
-
 .info-item {
   margin-left: auto;
 }
