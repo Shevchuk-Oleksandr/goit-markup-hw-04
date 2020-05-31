@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body class="body">
     <!-- website head -->
     <header class="page-header">
@@ -36,14 +37,21 @@
         <div class="conteiner-info">
           <ul class="info-title list">
             <li class="item">
-              <a class="info-title mail-icon" href="mailto:info@devstudio.com "
-                >info@devstudio.com</a
-              >
+              <a class="mail link" href="mailto:info@devstudio.com">
+                <svg class="icon-envelope">
+                  <use href="./img/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
             </li>
             <li class="item">
-              <a class="info-title mobile-icon" href="tel:+380961111111">
-                +38 096 111 11 11</a
-              >
+              <a class="telefon link" href="tel:+380961111111">
+                <svg class="icon-telefon">
+                  <use href="./img/sprite.svg#icon-telefon"></use>
+                </svg>
+
+                +38 096 111 11 11
+              </a>
             </li>
           </ul>
         </div>
@@ -284,26 +292,34 @@
           </div>
           <div class="block-join">
             <p class="join-in">присоединяйтесь</p>
-            <ul class="list">
-              <li>
-                <a href="" class="link color" aria-label="ссылка на Инстаграм"
-                  >Инстаграм</a
-                >
+            <ul class="list social-list">
+              <li class="icon-link">
+                <a href="" class="link color" aria-label="ссылка на Инстаграм">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./img/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li>
-                <a href="" class="link color" aria-label="ссылка на Твитер"
-                  >Твитер</a
-                >
+              <li class="icon-link">
+                <a href="" class="link color" aria-label="ссылка на Твитер">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./img/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li>
-                <a href="" class="link color" aria-label="ссылка на Фейсбук "
-                  >Фейсбук</a
-                >
+              <li class="icon-link">
+                <a href="" class="link color" aria-label="ссылка на Фейсбук ">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./img/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
-              <li>
-                <a href="" class="link color" aria-label="ссылка на Линкеди"
-                  >Линкедин</a
-                >
+              <li class="icon-link">
+                <a href="" class="link color" aria-label="ссылка на Линкеди">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./img/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -311,7 +327,12 @@
             <p class="join-in text">подписаться на рассылку</p>
 
             <input name="E-mail" class="input" type="text" value="E-mail" />
-            <a href="" class="button">Подписаться</a>
+            <a href="" class="button"
+              >Подписаться
+              <svg class="send-icon">
+                <use href="./img/sprite.svg#icon-iconsend"></use>
+              </svg>
+            </a>
           </div>
         </div>
 

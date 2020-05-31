@@ -102,9 +102,13 @@ body {
 .icon-envelope {
   width: 16px;
   height: 11px;
-  padding: 0;
-  margin: 0;
   margin-right: 10px;
+  fill: currentColor;
+}
+
+.info-title .link:hover {
+  color: var(--akcent-color);
+  --color3: var(--akcent-color);
 }
 
 .mail {
@@ -600,6 +604,12 @@ body {
   background-color: var(--akcent-color);
 }
 
+.send-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
 /* Portfolio html page ********************************************************************************** */
 
 .container-button {
@@ -622,6 +632,8 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .button-item + .button-item {
