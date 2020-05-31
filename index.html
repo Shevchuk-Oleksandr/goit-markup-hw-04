@@ -36,24 +36,23 @@
 </nav>
 <div class="conteiner-info">
   <ul class="info-title list  ">
-          <li class="item">
-           <a class=" info-title " href="mailto:info@devstudio.com ">
-          <svg  width=16px heith=11px>
-            <use href="./img/symbol-defs.svg#icon-envelope">
+          <li class="item ">
+           <a class="mail "  href="mailto:info@devstudio.com">
+          <svg class="icon-envelope ">
+            <use href="./img/sprite.svg#icon-envelope">
             </use>
-          </svg>  
-            info@devstudio.com
+          </svg>
+                     info@devstudio.com
                        </a>
           </li>
-          <li class="item">
-            <a class=" info-title " href="tel:+380961111111"> 
-
-              <svg  width=10px heith=15px>
-
-                <use href="./img/symbol-defs.svg#icon-telefon">
-                              </use>
-              </svg>
-              +38 096 111 11 11 </a>
+          <li class="item ">
+            <a  class=" telefon "  href="tel:+380961111111"> 
+                        <svg class="icon-telefon ">
+                          <use href="./img/sprite.svg#icon-telefon"></use>
+                        </svg>
+             
+              +38 096 111 11 11 
+            </a>
           </li> 
         </ul>
         </div>
@@ -79,6 +78,12 @@
       <div class="container-too">
       <ul class="list list-item">
         <li class="item ">
+          <div class="icon-container">
+            <svg class="icon-antena">
+              <use href="./img/sprite.svg#icon-antena"></use>
+            </svg>
+
+          </div>
             <h2 class="section-title">Внимание к деталям</h2>
           <p class="desk">
             Идейные соображения, а также начало повседневной работы по
@@ -86,7 +91,12 @@
           </p>
         </li>
         <li class="item">
-          <a href="" class="link"> <img src="./img/clok.svg" class="border-picteres" alt="Часы" /></a>
+          <div class="icon-container">
+            <svg class="icon-clock">
+              <use href="./img/sprite.svg#icon-clock"></use>
+            </svg>
+          
+          </div>
 
           <h3 class="section-title">Пунктуальность</h3>
           <p class="desk">
@@ -95,7 +105,12 @@
           </p>
         </li>
         <li class="item">
-          <a href="" class="link "> <img src="./img/comp.svg" class="border-picteres" alt="Комп" /></a>
+          <div class="icon-container">
+            <svg class="icon-diagram">
+              <use href="./img/sprite.svg#icon-diagram"></use>
+            </svg>
+          
+          </div>
 
           <h3 class="section-title">Планирование</h3>
           <p class="desk">
@@ -104,7 +119,12 @@
           </p>
         </li>
         <li class="item">
-          <a href="" class="link"><img src="./img/robot.svg" class="border-picteres" alt="Робот" /></a>
+          <div class="icon-container">
+            <svg class="icon-astronaut">
+              <use href="./img/sprite.svg#icon-astronaut"></use>
+            </svg>
+          
+          </div>
 
           <h3 class="section-title">Современные технологии</h3>
           <p class="desk">
@@ -143,79 +163,175 @@
 <ul class="section-title list team-item">
   <li class="item team-box">
     <img src="./img/Джонсмит.jpg" class="img" alt="Джон Смит" width="270" height="260" />
-    <h3 class="section-title name-section">Джон Смит</h3>
-    <p class="subtitle">Дизайнер продуктов</p>
-    <ul class="list link ">
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Инстаграм">Инстаграм</a>
+    <h3 class="name-section">John Smith</h3>
+    <p class="subtitle">Product Designer</p>
+    <ul class="list  social-list">
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Инстаграм">
+          <svg  class="icon-team">
+            <use href="./img/sprite.svg#icon-instagram">
+
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Твитер">Твитер</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Твитер">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-twitter">
+          
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Фейсбук ">Фейсбук</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Фейсбук ">
+          <svg  class="icon-team">
+            <use href="./img/sprite.svg#icon-facebook">
+          
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Линкеди">Линкедин</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Линкеди">
+          <svg  class="icon-team">
+            <use href="./img/sprite.svg#icon-linkedin">
+          
+            </use>
+          </svg>
+        </a>
       </li>
     </ul>
   </li>
   <li class="item team-box">
     <img src="./img/марта.jpg" class="img" alt="Марта Стюарт" width="270" height="260" />
-    <h3 class="section-title name-section">Марта Стюарт</h3>
-    <p class="subtitle">Фронтенд Разработчик</p>
-    <ul class="list">
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Инстаграм">Инстаграм</a>
+    <h3 class=" name-section">Marta Stewart</h3>
+    <p class="subtitle">Frontend Developer</p>
+    <ul class="list  social-list">
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Инстаграм">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-instagram">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Твитер">Твитер</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Твитер">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-twitter">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Фейсбук ">Фейсбук</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Фейсбук ">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-facebook">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Линкеди">Линкедин</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Линкеди">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-linkedin">
+    
+            </use>
+          </svg>
+        </a>
       </li>
     </ul>
   </li>
   <li class="item team-box">
     <img src="./img/роберт.jpg" class="img" alt="Роберт Джекис" width="270" height="260" />
 
-    <h3 class="section-title name-section">Роберт Джекис</h3>
-    <p class="subtitle">Маркетинг</p>
-    <ul class="list">
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Инстаграм">Инстаграм</a>
+    <h3 class=" name-section">Robert Jakis</h3>
+    <p class="subtitle">Marketing</p>
+    <ul class="list  social-list">
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Инстаграм">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-instagram">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Твитер">Твитер</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Твитер">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-twitter">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Фейсбук ">Фейсбук</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Фейсбук ">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-facebook">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Линкеди">Линкедин</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Линкеди">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-linkedin">
+    
+            </use>
+          </svg>
+        </a>
       </li>
     </ul>
   </li>
   <li class="item team-box">
     <img src="./img/мартин.jpg" class="img" alt="Мартин Доу" width="270" height="260" />
-    <h3 class="section-title name-section">Мартин Доу</h3>
-    <p class="subtitle">Разработка <br> пользовательского интерфейса</p>
+    <h3 class=" name-section">Martin Doe</h3>
+    <p class="subtitle">UI Designer</p>
 
-    <ul class="list ">
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Инстаграм">Инстаграм</a>
+    <ul class="list  social-list">
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Инстаграм">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-instagram">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Твитер">Твитер</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Твитер">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-twitter">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Фейсбук ">Фейсбук</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Фейсбук ">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-facebook">
+    
+            </use>
+          </svg>
+        </a>
       </li>
-      <li>
-        <a href="" class="link color" aria-label="ссылка на Линкеди">Линкедин</a>
+      <li class="team-link">
+        <a href="" class="link color" aria-label="ссылка на Линкеди">
+          <svg class="icon-team">
+            <use href="./img/sprite.svg#icon-linkedin">
+    
+            </use>
+          </svg>
+        </a>
       </li>
     </ul>
   </li>
@@ -229,32 +345,52 @@
                    <h2 class=" section-title caption" >Постоянные клиенты</h2>
               <ul class=" list ">
         <li class="regular item">
-          <a href="" class="link"
-            ><img src="./img/logo1.svg" width="170" height="90" alt="YA & CO"
-          /></a>
+          <a href="" class="link">
+          <svg class="icon-brand" widt="44px";  height="49px";>
+            <use href="./img/sprite.svg#icon-logo1">
+          
+            </use>
+          </svg>
+          </a>
         </li>
         <li class="regular item">
           <a href="" class="link"
-            ><img src="./img/logo2.svg" width="170" height="90" alt="Company tagline here"
-          /></a>
+            ><svg class="icon-brand" widt="40px" ; height="52px" ;>
+              <use href="./img/sprite.svg#icon-logo2">
+            
+              </use>
+            </svg></a>
         </li>
         <li class="regular item">
           <a href="" class="link"
-            ><img src="./img/logo3.svg" width="170" height="90" alt="company"
-          /></a>
+            ><svg class="icon-brand" widt="41px" ; height="42px" ;>
+              <use href="./img/sprite.svg#icon-logo3">
+            
+              </use>
+            </svg></a>
         </li>
         <li class="regular item">
           <a href="" class="link"
-            ><img src="./img/logo4.svg" width="170" height="90" alt="Foster peters"
-          /></a>
+            ><svg class="icon-brand" widt="79px" ; height="42px" ;>
+              <use href="./img/sprite.svg#icon-logo4">
+            
+              </use>
+            </svg></a>
         </li>
         <li class="regular item">
-          <a href="" class="link"><img src="./img/logo5.svg" width="170" height="90" alt="Brand" /></a>
+          <a href="" class="link"><svg class="icon-brand" widt="59px" ; height="47px" ;>
+            <use href="./img/sprite.svg#icon-logo5">
+          
+            </use>
+          </svg></a>
         </li>
         <li class="regular item">
           <a href="" class="link"
-            ><img src="./img/logo6.svg" width="170" height="90" alt="company nag line"
-          /></a>
+            ><svg class="icon-brand" widt="88px" ; height="45px" ;>
+              <use href="./img/sprite.svg#icon-logo6">
+            
+              </use>
+            </svg></a>
         </li>
       </ul>
       </div>
@@ -276,18 +412,42 @@
 </div>
 <div class="block-join">
   <p class="join-in">присоединяйтесь</p>
-  <ul class=" list">
-    <li>
-      <a href="" class="link color" aria-label="ссылка на Инстаграм">Инстаграм</a>
+  <ul class="list  social-list">
+    <li class="icon-link ">
+      <a href="" class="link color" aria-label="ссылка на Инстаграм">
+        <svg class="icon-footer"  width="20" height="20">
+          <use href="./img/sprite.svg#icon-instagram">
+  
+          </use>
+        </svg>
+      </a>
     </li>
-    <li>
-      <a href="" class="link color" aria-label="ссылка на Твитер">Твитер</a>
+    <li class="icon-link">
+      <a href="" class="link color" aria-label="ссылка на Твитер">
+        <svg class="icon-footer"  width="20" height="20">
+          <use href="./img/sprite.svg#icon-twitter">
+  
+          </use>
+        </svg>
+      </a>
     </li>
-    <li>
-      <a href="" class="link color" aria-label="ссылка на Фейсбук ">Фейсбук</a>
+    <li class="icon-link">
+      <a href="" class="link color" aria-label="ссылка на Фейсбук ">
+        <svg class="icon-footer"  width="20" height="20">
+          <use href="./img/sprite.svg#icon-facebook">
+  
+          </use>
+        </svg>
+      </a>
     </li>
-    <li>
-      <a href="" class="link color" aria-label="ссылка на Линкеди">Линкедин</a>
+    <li class="icon-link">
+      <a href="" class="link color" aria-label="ссылка на Линкеди">
+        <svg class="icon-footer" width="20" height="20" >
+          <use href="./img/sprite.svg#icon-linkedin">
+  
+          </use>
+        </svg>
+      </a>
     </li>
   </ul>
 </div>
