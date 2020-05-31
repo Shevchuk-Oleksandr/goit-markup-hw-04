@@ -423,16 +423,12 @@ body {
 .team-link:hover,
 .team-link:focus {
   background-color: #2196f3;
+  --color4: white;
 }
 
 .icon-team {
   width: 20px;
   height: 20px;
-}
-
-.icon-team:hover,
-.icon-team:focus {
-  --color4: white;
 }
 
 /* Regular customers */
