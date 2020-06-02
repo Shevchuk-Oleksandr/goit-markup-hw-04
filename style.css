@@ -473,6 +473,36 @@ body {
   border: 1px solid var(--akcent-color);
 }
 
+.icon-yoco {
+  width: 44px;
+  height: 49px;
+}
+
+.icon-tagline {
+  width: 40px;
+  height: 52px;
+}
+
+.icon-company {
+  width: 41px;
+  height: 42px;
+}
+
+.icon-foster {
+  width: 79px;
+  height: 42px;
+}
+
+.icon-brand {
+  width: 59px;
+  height: 47px;
+}
+
+.icon-tag {
+  width: 88px;
+  height: 45px;
+}
+
 .icon-brand:hover {
   --color4: #2196f3;
 }
@@ -633,6 +663,11 @@ body {
     0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
+.button-portfolio:hover {
+  background-color: var(--akcent-color);
+  color: white;
+}
+
 .button-item + .button-item {
   margin-left: 8px;
 }
@@ -694,7 +729,7 @@ body {
   color: var(--second-color);
   margin: 0;
   margin-bottom: 4px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .p-title {
